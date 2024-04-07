@@ -86,10 +86,12 @@
       "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
     },
     {
-      "id": "1177",
-      "img": "vfdsf",
-      "title": "dvf",
-      "method": "vdfvdffe"
+      "id": "fa5c",
+      "title": "Rolton",
+      "cookingTime": "10 minutes",
+      "method": "Tez tayyorlanadigan lapsha Rollton, tovuq mazasi bilan, 60 g",
+      "img": "https://rollton.ru/wp-content/uploads/2023/03/vermishel-v-pachke-60-g.png",
+      "ingredients": ["Lag'mon", "tun", "ziravor"]
     }
   ]
 }
