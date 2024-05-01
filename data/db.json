@@ -1,23 +1,6 @@
 {
   "recipies": [
     {
-      "id": "1",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD-xDLXhh2PKPTXzEvMPGM_pBNbWMvWDo41Q8z3DZBuw&s",
-      "title": "Palov",
-      "ingredients": [
-        "guruch",
-        "sabzi",
-        "zira",
-        "go'sht",
-        "yog'",
-        "piyoz",
-        "tuz",
-        "suv"
-      ],
-      "cookingTime": "60 minutes",
-      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
-    },
-    {
       "id": "2",
       "img": "https://avatars.dzeninfra.ru/get-zen_doc/3437146/pub_60357f87084cc34524138172_60357faf084cc34524139d97/scale_1200",
       "title": "Mastava",
@@ -86,12 +69,17 @@
       "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
     },
     {
-      "id": "fa5c",
-      "title": "Rolton",
-      "cookingTime": "10 minutes",
-      "method": "Tez tayyorlanadigan lapsha Rollton, tovuq mazasi bilan, 60 g",
-      "img": "https://rollton.ru/wp-content/uploads/2023/03/vermishel-v-pachke-60-g.png",
-      "ingredients": ["Lag'mon", "tun", "ziravor"]
+      "id": "c862",
+      "title": "asx",
+      "cookingTime": "12 minutes",
+      "method": "a\na \na a \n a  a  a dd d a",
+      "img": "https://dostavo4ka.uz/upload-file/2021/07/05/6239/750x750-9b2d792c-266d-41c6-af4c-e50ddcd703ed.jpg",
+      "ingredients": [
+        "cd",
+        "dc",
+        "d",
+        "dd"
+      ]
     }
   ]
 }

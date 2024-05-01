@@ -1,23 +1,35 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import RecipiesList from "../components/RecipiesList";
+import { useFetch } from "../hooks/useFetch";
 
 function Home() {
-  const [recipes, setRecipes] = useState(null);
+  const {
+    data: recipes,
+    isPending,
+    error,
+  } = useFetch("http://localhost:3000/recipies");
 
-  useEffect(() => {
-    fetch("http://localhost:3000/recipies")
-      .then((data) => {
-        return data.json();
-      })
-      .then((recipes) => {
-        setRecipes(recipes);
-      })
-      .catch((error) => {
-        console.log(error);
+  const deleteRecipe = async (id) => {
+    try {
+      await fetch("http://localhost:3001/recipies/" + id, {
+        method: "DELETE",
       });
-  }, []);
+      // Qolgan kod...
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-  return <div>{recipes && <RecipiesList recipes={recipes} />}</div>;
+  return (
+    <div>
+      <h1>Recipes</h1>
+      {isPending && <p>Loading...</p>}
+      {error && <p>{error}</p>}
+      {recipes && (
+        <RecipiesList recipes={recipes} deleteRecipe={deleteRecipe} />
+      )}
+    </div>
+  );
 }
 
 export default Home;
